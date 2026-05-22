@@ -13,7 +13,7 @@ from langchain_pinecone import PineconeVectorStore
 
 load_dotenv()
 
-def main():
+def ingestion():
     print("Ingesting....")
 
     # 1. load
@@ -50,5 +50,5 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    ingestion()
     
